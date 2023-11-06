@@ -1,0 +1,11 @@
+.product-list{
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.product-list__item{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgb(222 222 222 / 80%);
+    box-shadow: 0px 0px 14px 1px #dedede;
+    padding: 20px;
+}
